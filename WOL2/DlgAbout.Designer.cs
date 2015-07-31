@@ -51,16 +51,16 @@ namespace WOL2
             // 
             // linkLabel1
             // 
-            this.linkLabel1.BackColor = System.Drawing.Color.Transparent;
             resources.ApplyResources(this.linkLabel1, "linkLabel1");
+            this.linkLabel1.BackColor = System.Drawing.Color.Transparent;
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.TabStop = true;
             this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LinkLabel1LinkClicked);
             // 
             // label1
             // 
-            this.label1.BackColor = System.Drawing.Color.Transparent;
             resources.ApplyResources(this.label1, "label1");
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Name = "label1";
             this.label1.UseCompatibleTextRendering = true;
             // 

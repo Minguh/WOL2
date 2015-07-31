@@ -117,84 +117,109 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="toolStripTools.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="toolStripContainer1.BottomToolStripPanel.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="cmGroups.Size" type="System.Drawing.Size, System.Drawing">
+    <value>381, 254</value>
+  </data>
+  <data name="tabPageMain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 33</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tabPageMain.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="tabPageMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1214, 633</value>
+  </data>
+  <data name="tabControl.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="tabControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1222, 670</value>
+  </data>
+  <data name="toolStripContainer1.ContentPanel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="toolStripContainer1.ContentPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1222, 670</value>
+  </data>
+  <data name="toolStripContainer1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 42</value>
+  </data>
+  <data name="toolStripContainer1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="toolStripContainer1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1222, 760</value>
+  </data>
+  <data name="toolStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1166, 65</value>
+  </data>
   <data name="wakeGroupToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>232, 22</value>
+    <value>380, 34</value>
   </data>
   <data name="wakeGroupToolStripMenuItem.Text" xml:space="preserve">
     <value>Gruppe aufwecken</value>
   </data>
   <data name="rebootGroupToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>232, 22</value>
+    <value>380, 34</value>
   </data>
   <data name="rebootGroupToolStripMenuItem.Text" xml:space="preserve">
     <value>Gruppe neustarten</value>
   </data>
   <data name="shutdownGroupToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>232, 22</value>
+    <value>380, 34</value>
   </data>
   <data name="shutdownGroupToolStripMenuItem.Text" xml:space="preserve">
     <value>Gruppe herunterfahren</value>
   </data>
   <data name="toolStripSeparator10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>229, 6</value>
+    <value>377, 6</value>
   </data>
   <data name="setGroupNameToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>232, 22</value>
+    <value>380, 34</value>
   </data>
   <data name="setGroupNameToolStripMenuItem.Text" xml:space="preserve">
     <value>Aktive Gruppe umbenennen...</value>
   </data>
   <data name="addGroupToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>232, 22</value>
+    <value>380, 34</value>
   </data>
   <data name="addGroupToolStripMenuItem.Text" xml:space="preserve">
     <value>Gruppe hinzufügen...</value>
   </data>
   <data name="removeGroupToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>232, 22</value>
+    <value>380, 34</value>
   </data>
   <data name="removeGroupToolStripMenuItem.Text" xml:space="preserve">
     <value>Gruppe löschen...</value>
   </data>
   <data name="toolStripSeparator6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>229, 6</value>
+    <value>377, 6</value>
+  </data>
+  <data name="editTimerToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>380, 34</value>
+  </data>
+  <data name="editTimerToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Timer bearbeiten</value>
   </data>
   <data name="wakeGroupTimerToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>155, 22</value>
+    <value>247, 34</value>
   </data>
   <data name="wakeGroupTimerToolStripMenuItem.Text" xml:space="preserve">
     <value>Aufwecken</value>
   </data>
   <data name="rebootGroupTimerToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>155, 22</value>
+    <value>247, 34</value>
   </data>
   <data name="rebootGroupTimerToolStripMenuItem.Text" xml:space="preserve">
     <value>Neustarten</value>
   </data>
   <data name="shutdownGroupTimerToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>155, 22</value>
+    <value>247, 34</value>
   </data>
   <data name="shutdownGroupTimerToolStripMenuItem.Text" xml:space="preserve">
     <value>Herunterfahren</value>
-  </data>
-  <data name="editTimerToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>232, 22</value>
-  </data>
-  <data name="editTimerToolStripMenuItem1.Text" xml:space="preserve">
-    <value>Timer bearbeiten</value>
-  </data>
-  <data name="cmGroups.Size" type="System.Drawing.Size, System.Drawing">
-    <value>233, 170</value>
-  </data>
-  <data name="cmGroups.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="columnHeader12.Text" xml:space="preserve">
     <value>IP Adresse</value>
@@ -218,81 +243,15 @@
   <data name="columnHeader17.Text" xml:space="preserve">
     <value>IPv6 Adresse</value>
   </data>
-  <data name="wakeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>193, 22</value>
-  </data>
-  <data name="wakeToolStripMenuItem.Text" xml:space="preserve">
-    <value>Aufwecken</value>
-  </data>
-  <data name="rebootToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>193, 22</value>
-  </data>
-  <data name="rebootToolStripMenuItem.Text" xml:space="preserve">
-    <value>Neustarten</value>
-  </data>
-  <data name="shutdownToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>193, 22</value>
-  </data>
-  <data name="shutdownToolStripMenuItem.Text" xml:space="preserve">
-    <value>Herunterfahren</value>
-  </data>
-  <data name="toolStripSeparator8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>190, 6</value>
-  </data>
-  <data name="editToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>193, 22</value>
-  </data>
-  <data name="editToolStripMenuItem1.Text" xml:space="preserve">
-    <value>Bearbeiten...</value>
-  </data>
-  <data name="editTimerToolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>193, 22</value>
-  </data>
-  <data name="editTimerToolStripMenuItem2.Text" xml:space="preserve">
-    <value>Timer bearbeiten</value>
-  </data>
-  <data name="deleteToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>193, 22</value>
-  </data>
-  <data name="deleteToolStripMenuItem.Text" xml:space="preserve">
-    <value>Löschen</value>
-  </data>
-  <data name="toolStripSeparator9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>190, 6</value>
-  </data>
-  <data name="assignToGroupToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>193, 22</value>
-  </data>
-  <data name="assignToGroupToolStripMenuItem.Text" xml:space="preserve">
-    <value>Gruppe setzen</value>
-  </data>
-  <data name="addToGroupToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>193, 22</value>
-  </data>
-  <data name="addToGroupToolStripMenuItem.Text" xml:space="preserve">
-    <value>Zu Gruppe hinzufügen</value>
-  </data>
-  <data name="toolStripSeparator11.Size" type="System.Drawing.Size, System.Drawing">
-    <value>190, 6</value>
-  </data>
-  <data name="executeToolToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>193, 22</value>
-  </data>
-  <data name="executeToolToolStripMenuItem.Text" xml:space="preserve">
-    <value>Werkzeuge</value>
-  </data>
   <data name="cmHost.Size" type="System.Drawing.Size, System.Drawing">
-    <value>194, 220</value>
-  </data>
-  <data name="cmHost.ToolTip" xml:space="preserve">
-    <value />
+    <value>315, 328</value>
   </data>
   <data name="imageListLarge.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
         ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAABA
-        EAAAAk1TRnQBSQFMAgEBAgEAAZQBAQGUAQEBIAEAASABAAT/AQkBAAj/AUIBTQE2AQQGAAE2AQQCAAEo
+        EAAAAk1TRnQBSQFMAgEBAgEAAZwBAQGcAQEBIAEAASABAAT/AQkBAAj/AUIBTQE2AQQGAAE2AQQCAAEo
         AwABgAMAASADAAEBAQABCAYAARAYAAGAAgABgAMAAoABAAGAAwABgAEAAYABAAKAAgADwAEAAcAB3AHA
         AQAB8AHKAaYBAAEzBQABMwEAATMBAAEzAQACMwIAAxYBAAMcAQADIgEAAykBAANVAQADTQEAA0IBAAM5
         AQABgAF8Af8BAAJQAf8BAAGTAQAB1gEAAf8B7AHMAQABxgHWAe8BAAHWAucBAAGQAakBrQIAAf8BMwMA
@@ -364,15 +323,18 @@
         AgAB/wgAAYACAAH/AYACAAH/CAAI/wgACw==
 </value>
   </data>
+  <data name="listView.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
   <data name="listView.Size" type="System.Drawing.Size, System.Drawing">
-    <value>690, 336</value>
+    <value>1214, 633</value>
   </data>
   <data name="imageListSmall.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
         ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAACs
-        CQAAAk1TRnQBSQFMAgEBAgEAAZQBAQGUAQEBEAEAARABAAT/AQkBAAj/AUIBTQE2AQQGAAE2AQQCAAEo
+        CQAAAk1TRnQBSQFMAgEBAgEAAZwBAQGcAQEBEAEAARABAAT/AQkBAAj/AUIBTQE2AQQGAAE2AQQCAAEo
         AwABQAMAARADAAEBAQABCAYAAQQYAAGAAgABgAMAAoABAAGAAwABgAEAAYABAAKAAgADwAEAAcAB3AHA
         AQAB8AHKAaYBAAEzBQABMwEAATMBAAEzAQACMwIAAxYBAAMcAQADIgEAAykBAANVAQADTQEAA0IBAAM5
         AQABgAF8Af8BAAJQAf8BAAGTAQAB1gEAAf8B7AHMAQABxgHWAe8BAAHWAucBAAGQAakBrQIAAf8BMwMA
@@ -416,52 +378,100 @@
         AQ8BAAEPBQABDwEAAQ8EAAT/BAAL
 </value>
   </data>
-  <data name="listView.ToolTip" xml:space="preserve">
-    <value />
+  <data name="wakeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>314, 34</value>
   </data>
-  <data name="tabPageMain.Size" type="System.Drawing.Size, System.Drawing">
-    <value>690, 336</value>
+  <data name="wakeToolStripMenuItem.Text" xml:space="preserve">
+    <value>Aufwecken</value>
   </data>
-  <data name="tabPageMain.ToolTip" xml:space="preserve">
-    <value />
+  <data name="rebootToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>314, 34</value>
   </data>
-  <data name="tabControl.Size" type="System.Drawing.Size, System.Drawing">
-    <value>698, 362</value>
+  <data name="rebootToolStripMenuItem.Text" xml:space="preserve">
+    <value>Neustarten</value>
   </data>
-  <data name="tabControl.ToolTip" xml:space="preserve">
-    <value />
+  <data name="shutdownToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>314, 34</value>
   </data>
-  <data name="toolStripContainer1.ContentPanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>698, 362</value>
+  <data name="shutdownToolStripMenuItem.Text" xml:space="preserve">
+    <value>Herunterfahren</value>
   </data>
-  <data name="toolStripContainer1.ContentPanel.ToolTip" xml:space="preserve">
-    <value />
+  <data name="toolStripSeparator8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>311, 6</value>
   </data>
-  <data name="toolStripContainer1.LeftToolStripPanel.ToolTip" xml:space="preserve">
-    <value />
+  <data name="editToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>314, 34</value>
   </data>
-  <data name="toolStripContainer1.RightToolStripPanel.ToolTip" xml:space="preserve">
-    <value />
+  <data name="editToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Bearbeiten...</value>
   </data>
-  <data name="toolStripContainer1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>698, 425</value>
+  <data name="editTimerToolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>314, 34</value>
   </data>
-  <data name="toolStripContainer1.ToolTip" xml:space="preserve">
-    <value />
+  <data name="editTimerToolStripMenuItem2.Text" xml:space="preserve">
+    <value>Timer bearbeiten</value>
+  </data>
+  <data name="wakeTimerToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>198, 34</value>
+  </data>
+  <data name="rebootTimerToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>198, 34</value>
+  </data>
+  <data name="shutdownTimerToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>198, 34</value>
+  </data>
+  <data name="deleteToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>314, 34</value>
+  </data>
+  <data name="deleteToolStripMenuItem.Text" xml:space="preserve">
+    <value>Löschen</value>
+  </data>
+  <data name="toolStripSeparator9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>311, 6</value>
+  </data>
+  <data name="assignToGroupToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>314, 34</value>
+  </data>
+  <data name="assignToGroupToolStripMenuItem.Text" xml:space="preserve">
+    <value>Gruppe setzen</value>
+  </data>
+  <data name="assignGrpMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 34</value>
+  </data>
+  <data name="addToGroupToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>314, 34</value>
+  </data>
+  <data name="addToGroupToolStripMenuItem.Text" xml:space="preserve">
+    <value>Zu Gruppe hinzufügen</value>
+  </data>
+  <data name="dummy1ToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 34</value>
+  </data>
+  <data name="toolStripSeparator11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>311, 6</value>
+  </data>
+  <data name="executeToolToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>314, 34</value>
+  </data>
+  <data name="executeToolToolStripMenuItem.Text" xml:space="preserve">
+    <value>Werkzeuge</value>
+  </data>
+  <data name="dummy1ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 34</value>
   </data>
   <data name="toolStripButton_NewFile.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEKSURBVDhPlZNJroMwEES5/3EQC9j8Q4AQgvwV2TLPox2q
-        iSMncStJSSWjVvlRNsKCHMcJ6OFLveU9z/uXX2jfd1qRv289hYEQQs7zLJdlkeu6UhjGHMKKOWQEIDyO
-        I0EQhLdto406BGIBwzDIaZrIqgkgehPICECw73uCqCYchAV0XfeAoIUJwgIQrOtaNk0j27Z9aqNgMAtA
-        qKoqggAAoxEg+rFYAAJFURBAb/IKYQEIAFCWpRGijsQCEMjznAA6RD8OMvgSRgACWZZRC1jdh2qhICwA
-        l+j7vgiCQIRhSI6iSMRxTE6ShJymqXgD2Lb9UwPk71tPHYM/13Wvx296+eTj7Rfkz52WdQOOvNV0tp8A
-        2AAAAABJRU5ErkJggg==
+        YQUAAAAJcEhZcwAAGdYAABnWARjRyu0AAAELSURBVDhPlZPJjoMwEET5/89BHOCSf4AgBEouaK7s+2oP
+        1cSRk7g1mZJKRq3yo2yEBTmOc6WHL/WR9zzvLr/Qvu+0Iv/YegoDIYSc51kuyyLXdaUwjDmEFXPICEB4
+        HEeCIAhv20YbdQjEAoZhkNM0kVUTQPQmkBGAYN/3BFFNOAgL6LruCUELE4QFIFjXtWyaRrZt+9JGwWAW
+        gFBVVQQBAEYjQPRjsQAEiqIggN7kHcICEACgLEsjRB2JBSCQ5zkBdIh+HGTwJYwABLIsoxawug/VQkFY
+        AC7R930RBIEIw5AcRZGI45icJAk5TVPxAbBt+18NkH9sPXUMLq7r/hy/6e0vH2+/IX/utKxfe6LVVoJN
+        bNsAAAAASUVORK5CYII=
 </value>
   </data>
   <data name="toolStripButton_NewFile.Size" type="System.Drawing.Size, System.Drawing">
-    <value>33, 35</value>
+    <value>56, 62</value>
   </data>
   <data name="toolStripButton_NewFile.Text" xml:space="preserve">
     <value>Neu</value>
@@ -469,24 +479,24 @@
   <data name="toolStripButton_OpenFile.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALwSURBVDhPbZNrSFNhHMZHQREJ9UHM66bBMCwXTnOCRB/0
-        QxFkw1LJoC/VByHFEsvsgm1RRiUqWWjaSqWaVktxm+Ql5zqT8obXhtdtOqfmZXPO29zTeY8rLX3g4T3n
-        5Ty/////Hl7WVkpISOAUFBTwFAoFPzEx8ZpIJHooFovznz7OfJuVlaXIyy/oyHtd3hGTJHrvjKwrMjKS
-        K5VKOxsbG2dVKtVkV1fXBJz6ZV1CXfsA6jpGYKXfb+dIfjpj6+Lz+fHT09NriQ1aXl6B7FsPGrST0Fsd
-        sNB7qU9e9jtj6xIIBHFNTU2rJORwOBjbV1YwbjJBoenGAF1aR9u0DFx99KrPGVsXDYjdCCBaXFyEQa/H
-        54ZWaM1A7wwwNA9cydwCEBISEqvRaBjA6iqzMIARgwEyGtA5BbRP2NE7SwBFmwFBQUGxFEX9BZAuFhYW
-        mA7Ka1vww+SAxmBD28QqLosKNwMCAwPPqtVqBmC32xmIzWaDXq9DWU0zvg7aUN9vgUq/hLj0F5sBYWFh
-        MfTvYwAr9OH9AeiGh1GsoFCtnYOyZwbSzjkI0/4DBAcH7xFlZHwgM5PqBEDWOYsFQ4P9eKdU4VOzEW++
-        T+IZNQVhSl4fKyAgYAdtF29v712erq5BVVVVo6Q6gZDK8/PzMJvNMI4YUP2lFs8VHXggNyCr3oSolOw+
-        1mEOZy+Xyw318/E56uHmdq6srGyUHJyFrkqCxOR5fMyImgY17pVSuPOxHzl1RrqD3EHS+TZ/f3/f/b6+
-        Fzzd3W/JZLIJMjcJWq1WxnO0LeYZdGv7kF6kRpKkC8nSQYRfymxlZqe13Y/NPuPr41OoVCptZATSumls
-        DDqdDuQDaUmJNjn1ZtPJG6Xjh663jvrFZ1Oci8VhTJqIx+Pt5nh5nRBnZDS0UJSRgCorKiolEkkmfSuj
-        6AvmEhFx/MjB+Jw29un7Si9BNM8Z/VdCodDjblragdzcXL5cLt/p3Gbkfyw6ZF/4+WJ26KmAtR0W6ze4
-        Rkc2elxS1gAAAABJRU5ErkJggg==
+        YQUAAAAJcEhZcwAAGdYAABnWARjRyu0AAALwSURBVDhPbZNrSFNhHMZHQREJ9UHM66aBGJYLpzlBog/6
+        oQiyYalk0Jfqg5BiiWV2Yc0ooxKVLDRtpVJNq6W4TfLSpp5FecNrQ51u0zk1L5tz3uaezntcaekDD+85
+        L+f5/f//9/CytlJiYiKnsLCQK5fLeUlJSddEItHDzMzMgqePs95mZ2fL8wsKO/NfV3TGJoveOyPrioqK
+        8pdIJF2NjY2zKpVqsru7ewJO/bIuob5jEPWdI7DS77dzxT+dsXXxeLyE6enptcQGLS+vQNrcC6VmEnqr
+        AxZ6L+3JywFnbF18Pj9erVavkpDD4WBsX1nBuMkEuboHg3RpHW3TMnD10at+Z2xdNCBuI4BocXERBr0e
+        n5Vt0JiBvhlgaB64krUFIDQ0NI6iKAawusosDGDEYICUBnRNAR0TdvTNEkDxZkBwcHBcc3PzXwDpYmFh
+        gemgoq4VP0wOqA02tE+s4rKoaDMgKCjoLP0HGIDdbmcgNpsNer0O5bUt+Kq1oWHAApV+CfEZLzYDwsPD
+        Y5VKJQNYoQ/vD0A3PIwSOYUazRwUvTOQdM1BkP4fICQkZI9IKPxAZibVCYCscxYLhrQDeKdQ4VOLEW++
+        T+IZNQVBan4/KzAwcAdtF29v712erq7B1dXVo6Q6gZDK8/PzMJvNMI4YUPOlDs/lnXggMyC7wYTo1Jx+
+        1mEOZ6+/v3+Yn4/PUQ83t3Pl5eWj5OAsdFUSJCbP42NG1CqbcK+Mwp2PA8itN9Id5GlJ59sCAgJ89/v6
+        XvB0d78llUonyNwkaLVaGc/Rtphn0KPpR0ZxE5LF3UiRaBFxKauNmZ3Wdj82+4yvj0+RQqGwkRFI66ax
+        Meh0OpAPJKWlmpS0m99O3igbP3S9bdQvIYfiXCwJZ9JEXC53N8fL60SmUKhspSgjAVVVVlaJxeIs+lZG
+        0xfMJTLy+JGDCbnt7NP3FV78GK4z+q8EAoHH3fT0A3l5eTyZTLbTuc0o4FhM6L6I8yXssFOBazss1m+J
+        1UckfZil1QAAAABJRU5ErkJggg==
 </value>
   </data>
   <data name="toolStripButton_OpenFile.Size" type="System.Drawing.Size, System.Drawing">
-    <value>48, 35</value>
+    <value>82, 62</value>
   </data>
   <data name="toolStripButton_OpenFile.Text" xml:space="preserve">
     <value>Öffnen</value>
@@ -494,7 +504,7 @@
   <data name="toolStripButton_SaveFile.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJxSURBVDhPxZDvS1NhFMcXiHPV6OIc7pe7bm7up3O5cogF
+        YQUAAAAJcEhZcwAAGdYAABnWARjRyu0AAAJxSURBVDhPxZDvS1NhFMcXiHPV6OIc7pe7bm7up3O5cogF
         Qr0KGmJgznQbc3rVGUYEvVhRkgmmURkkgi/z/dj/kP9AFOWvmps5N7e56ZZj0Ldndxs2JHrZgQ/3POec
         58O5D0cikVwXCoXbfXZ7OBAIbPj9/s2/Ue4zDBM1maxBTiEuCATdtELza2R0HLncMf4VqWQSTpcbnV03
         wAoogcBG03R+mJnA0eERMtljpA4zhGwFB+kMfubySCYScDjdaO+4VhJQRcGQZ5QMHSIWT2M3mkQkdlBB
@@ -509,29 +519,32 @@
 </value>
   </data>
   <data name="toolStripButton_SaveFile.Size" type="System.Drawing.Size, System.Drawing">
-    <value>63, 35</value>
+    <value>108, 62</value>
   </data>
   <data name="toolStripButton_SaveFile.Text" xml:space="preserve">
     <value>Speichern</value>
   </data>
+  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 65</value>
+  </data>
   <data name="toolStripButton_NewHost.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         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
-        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
+        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
 </value>
   </data>
   <data name="toolStripButton_NewHost.Size" type="System.Drawing.Size, System.Drawing">
-    <value>71, 35</value>
+    <value>123, 62</value>
   </data>
   <data name="toolStripButton_NewHost.Text" xml:space="preserve">
     <value>Neuer Host</value>
@@ -539,24 +552,24 @@
   <data name="toolStripButton_EditHost.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         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
-        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
+        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
 </value>
   </data>
   <data name="toolStripButton_EditHost.Size" type="System.Drawing.Size, System.Drawing">
-    <value>95, 35</value>
+    <value>165, 62</value>
   </data>
   <data name="toolStripButton_EditHost.Text" xml:space="preserve">
     <value>Host bearbeiten</value>
@@ -564,7 +577,7 @@
   <data name="toolStripButton_DeleteHost.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGESURBVDhP7dHLK4RRHMbxdyGZ97zvvLcZdxYY19EgRmGY
+        YQUAAAAJcEhZcwAAGdYAABnWARjRyu0AAAGESURBVDhP7dHLK4RRHMbxdyGZ97zvvLcZdxYY19EgRmGY
         cR2US0RRWGlSgxkjl4Ys7GxG1kqElAUlTVNKSgmJIsNCSf6J06nHUf4CWfrWp2f1q1NH+O8PCkrS+1yK
         TpfSrDTMLaYYdN6q0bCh0TlNoX7VTCc0M/VzAVWhM5pKg1yI80nkXVi16DiotSM26EFsuAWnPfWIeqsR
         c1fhsMKODXsh1hzFiJSXYKuiFHuVDhw4y7DjKIBPJhCmJILz8lzE+zx4GevF23g/Pke68dzbjmijB+uu
@@ -575,33 +588,36 @@
 </value>
   </data>
   <data name="toolStripButton_DeleteHost.Size" type="System.Drawing.Size, System.Drawing">
-    <value>80, 35</value>
+    <value>137, 62</value>
   </data>
   <data name="toolStripButton_DeleteHost.Text" xml:space="preserve">
     <value>Host löschen</value>
   </data>
+  <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 65</value>
+  </data>
   <data name="toolStripButton_WakeHost.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         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
-        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
+        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
 </value>
   </data>
   <data name="toolStripButton_WakeHost.Size" type="System.Drawing.Size, System.Drawing">
-    <value>70, 35</value>
+    <value>119, 62</value>
   </data>
   <data name="toolStripButton_WakeHost.Text" xml:space="preserve">
     <value>Aufwecken</value>
@@ -609,22 +625,22 @@
   <data name="toolStripButton_RebootHost.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         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
-        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
+        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
 </value>
   </data>
   <data name="toolStripButton_RebootHost.Size" type="System.Drawing.Size, System.Drawing">
-    <value>69, 35</value>
+    <value>120, 62</value>
   </data>
   <data name="toolStripButton_RebootHost.Text" xml:space="preserve">
     <value>Neustarten</value>
@@ -632,7 +648,7 @@
   <data name="toolStripButton_ShutdownHost.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAMNSURBVDhPdVJpSFRRGL0tpqI5i6ml4zJuQzY65T4qlUpi
+        YQUAAAAJcEhZcwAAGdYAABnWARjRyu0AAAMNSURBVDhPdVJpSFRRGL0tpqI5i6ml4zJuQzY65T4qlUpi
         hWIhWebSQkkQlVOa4Y9spJKwjTKwaHJm3BJNyyW1olwwyyVNw5AaU9PJiCLNlJg83fd8PxLqwIHLOec7
         9757H/kXnEisJNoxYe9R/xQlwxjHxH2Mxtn/hxWJc8ldE1WkVyimUa4FXjZRNgOVxfhEtYuy6GImw8UX
         wn3p9uAmD++PSI4BLmQD1ZXA4FvKAbquAq7kAAd34qnUZ8x9aUwINzYPG5IgrlrlMq5b64zJzaHAoX3A
@@ -649,15 +665,18 @@
 </value>
   </data>
   <data name="toolStripButton_ShutdownHost.Size" type="System.Drawing.Size, System.Drawing">
-    <value>92, 35</value>
+    <value>159, 62</value>
   </data>
   <data name="toolStripButton_ShutdownHost.Text" xml:space="preserve">
     <value>Herunterfahren</value>
   </data>
+  <data name="toolStripSeparator13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 65</value>
+  </data>
   <data name="tbtnNote.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAE2SURBVDhPzZDPK4NxHMefJH2d9m84rchdkpNyUZI0yc+D
+        YQUAAAAJcEhZcwAAGdYAABnWARjRyu0AAAE2SURBVDhPzZDPK4NxHMefJH2d9m84rchdkpNyUZI0yc+D
         UuLgZDlwclArlx2UkouDSC5a7UJrE8ZjVtPM4dlHy9rzYNbobZ8+T49EfJWDV70u396vz+Fr/B9S+x3Z
         mpa500Y/mdprT7uZR/3d7Yj18hSCjrx1Ow+VuxikamkZOvKWG0kFlY31UqWwCB15y42kgsoc9dCzFYSO
         vOVGUkGZkS4q5+agI2+5kVRQ/LuP19PQkbfcSCqo2GYrOekp2OYEHq4mv5W33EgqqINwE1WLK6jk52Gf
@@ -666,208 +685,241 @@
 </value>
   </data>
   <data name="tbtnNote.Size" type="System.Drawing.Size, System.Drawing">
-    <value>39, 35</value>
+    <value>67, 62</value>
   </data>
   <data name="tbtnNote.Text" xml:space="preserve">
     <value>Notiz</value>
   </data>
-  <data name="toolStrip1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>690, 38</value>
+  <data name="menuStrip1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>10, 4, 0, 4</value>
   </data>
-  <data name="toolStrip1.ToolTip" xml:space="preserve">
-    <value />
+  <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1222, 42</value>
   </data>
-  <data name="toolStripContainer1.TopToolStripPanel.ToolTip" xml:space="preserve">
-    <value />
+  <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 34</value>
+  </data>
+  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
+    <value>Datei</value>
   </data>
   <data name="newFileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>168, 22</value>
+    <value>271, 34</value>
   </data>
   <data name="newFileToolStripMenuItem.Text" xml:space="preserve">
     <value>Neu</value>
   </data>
   <data name="openFileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>168, 22</value>
+    <value>271, 34</value>
   </data>
   <data name="openFileToolStripMenuItem.Text" xml:space="preserve">
     <value>Öffnen</value>
   </data>
   <data name="mnuMRU.Size" type="System.Drawing.Size, System.Drawing">
-    <value>168, 22</value>
+    <value>271, 34</value>
   </data>
   <data name="mnuMRU.Text" xml:space="preserve">
     <value>Zuletzt verwendet</value>
   </data>
+  <data name="mRUToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 34</value>
+  </data>
   <data name="saveFileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>168, 22</value>
+    <value>271, 34</value>
   </data>
   <data name="saveFileToolStripMenuItem.Text" xml:space="preserve">
     <value>Speichern unter...</value>
   </data>
   <data name="toolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>165, 6</value>
+    <value>268, 6</value>
+  </data>
+  <data name="importToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>271, 34</value>
   </data>
   <data name="fromCSVToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>157, 22</value>
+    <value>253, 34</value>
   </data>
   <data name="fromCSVToolStripMenuItem.Text" xml:space="preserve">
     <value>Aus CSV Datei...</value>
   </data>
-  <data name="importToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>168, 22</value>
-  </data>
-  <data name="asCSVToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>123, 22</value>
-  </data>
-  <data name="asCSVToolStripMenuItem.Text" xml:space="preserve">
-    <value>Als CSV...</value>
-  </data>
   <data name="exportToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>168, 22</value>
+    <value>271, 34</value>
   </data>
   <data name="exportToolStripMenuItem.Text" xml:space="preserve">
     <value>Exportieren</value>
   </data>
+  <data name="asCSVToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 34</value>
+  </data>
+  <data name="asCSVToolStripMenuItem.Text" xml:space="preserve">
+    <value>Als CSV...</value>
+  </data>
   <data name="toolStripSeparator3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>165, 6</value>
+    <value>268, 6</value>
   </data>
   <data name="exitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>168, 22</value>
+    <value>271, 34</value>
   </data>
   <data name="exitToolStripMenuItem.Text" xml:space="preserve">
     <value>Beenden</value>
   </data>
-  <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>46, 20</value>
+  <data name="editToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 34</value>
   </data>
-  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
-    <value>Datei</value>
+  <data name="editToolStripMenuItem.Text" xml:space="preserve">
+    <value>Bearbeiten</value>
+  </data>
+  <data name="createNewHostToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>388, 34</value>
   </data>
   <data name="createNewHostToolStripMenuItem.Text" xml:space="preserve">
     <value>Neuen Host erstellen</value>
   </data>
+  <data name="editCurrentHostToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>388, 34</value>
+  </data>
   <data name="editCurrentHostToolStripMenuItem.Text" xml:space="preserve">
     <value>Gewählten Host bearbeiten</value>
+  </data>
+  <data name="deleteCurrentHostToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>388, 34</value>
   </data>
   <data name="deleteCurrentHostToolStripMenuItem.Text" xml:space="preserve">
     <value>Gewählten Host löschen</value>
   </data>
+  <data name="toolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>385, 6</value>
+  </data>
+  <data name="openNetworkScannerToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>388, 34</value>
+  </data>
   <data name="openNetworkScannerToolStripMenuItem.Text" xml:space="preserve">
     <value>Netzwerkscanner öffnen...</value>
+  </data>
+  <data name="scanForNewHostsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>388, 34</value>
   </data>
   <data name="scanForNewHostsToolStripMenuItem.Text" xml:space="preserve">
     <value>Neue Hosts suchen</value>
   </data>
+  <data name="periodicallyScanForNewHostsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>388, 34</value>
+  </data>
+  <data name="toolStripSeparator4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>385, 6</value>
+  </data>
+  <data name="editTimerToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>388, 34</value>
+  </data>
   <data name="editTimerToolStripMenuItem.Text" xml:space="preserve">
     <value>Timer bearbeiten...</value>
   </data>
+  <data name="toolStripSeparator5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>385, 6</value>
+  </data>
+  <data name="einstellungenToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>388, 34</value>
+  </data>
+  <data name="einstellungenToolStripMenuItem.Text" xml:space="preserve">
+    <value>Einstellungen speichern in</value>
+  </data>
   <data name="xMLFileportableToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>183, 22</value>
+    <value>296, 34</value>
   </data>
   <data name="xMLFileportableToolStripMenuItem.Text" xml:space="preserve">
     <value>XML Datei (portable)</value>
   </data>
   <data name="windowsRegisrtryToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>183, 22</value>
+    <value>296, 34</value>
   </data>
-  <data name="einstellungenToolStripMenuItem.Text" xml:space="preserve">
-    <value>Einstellungen speichern in</value>
+  <data name="optionsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>388, 34</value>
   </data>
   <data name="optionsToolStripMenuItem.Text" xml:space="preserve">
     <value>Einstellungen...</value>
   </data>
-  <data name="editToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 20</value>
+  <data name="viewToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 34</value>
   </data>
-  <data name="editToolStripMenuItem.Text" xml:space="preserve">
-    <value>Bearbeiten</value>
+  <data name="viewToolStripMenuItem.Text" xml:space="preserve">
+    <value>Ansicht</value>
+  </data>
+  <data name="listViewStyleToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>211, 34</value>
+  </data>
+  <data name="listViewStyleToolStripMenuItem.Text" xml:space="preserve">
+    <value>Darstellung</value>
   </data>
   <data name="largeIconsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>155, 22</value>
+    <value>245, 34</value>
   </data>
   <data name="largeIconsToolStripMenuItem.Text" xml:space="preserve">
     <value>Große Symbole</value>
   </data>
   <data name="smallIconsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>155, 22</value>
+    <value>245, 34</value>
   </data>
   <data name="smallIconsToolStripMenuItem.Text" xml:space="preserve">
     <value>Kleine Symbole</value>
   </data>
   <data name="listToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>155, 22</value>
+    <value>245, 34</value>
   </data>
   <data name="listToolStripMenuItem.Text" xml:space="preserve">
     <value>Listenansicht</value>
   </data>
   <data name="reportToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>155, 22</value>
+    <value>245, 34</value>
   </data>
   <data name="reportToolStripMenuItem.Text" xml:space="preserve">
     <value>Detailansicht</value>
   </data>
-  <data name="listViewStyleToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>134, 22</value>
+  <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 34</value>
   </data>
-  <data name="listViewStyleToolStripMenuItem.Text" xml:space="preserve">
-    <value>Darstellung</value>
-  </data>
-  <data name="viewToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>59, 20</value>
-  </data>
-  <data name="viewToolStripMenuItem.Text" xml:space="preserve">
-    <value>Ansicht</value>
+  <data name="helpToolStripMenuItem.Text" xml:space="preserve">
+    <value>Hilfe</value>
   </data>
   <data name="helpToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>265, 22</value>
+    <value>437, 34</value>
   </data>
   <data name="helpToolStripMenuItem1.Text" xml:space="preserve">
     <value>Hilfe (ReadMe)</value>
   </data>
   <data name="toolStripMenuItem3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>262, 6</value>
+    <value>434, 6</value>
   </data>
   <data name="checkForUpdatesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>265, 22</value>
+    <value>437, 34</value>
   </data>
   <data name="checkForUpdatesToolStripMenuItem.Text" xml:space="preserve">
     <value>Neue Version suchen...</value>
   </data>
   <data name="openOnlineSurveyToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>265, 22</value>
+    <value>437, 34</value>
   </data>
   <data name="openOnlineSurveyToolStripMenuItem.Text" xml:space="preserve">
     <value>Anwenderbefragung (online) öffnen</value>
   </data>
   <data name="toolStripSeparator7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>262, 6</value>
+    <value>434, 6</value>
   </data>
   <data name="aboutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>265, 22</value>
+    <value>437, 34</value>
   </data>
   <data name="aboutToolStripMenuItem.Text" xml:space="preserve">
     <value>Über...</value>
   </data>
-  <data name="helpToolStripMenuItem.Text" xml:space="preserve">
-    <value>Hilfe</value>
-  </data>
-  <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>698, 24</value>
-  </data>
-  <data name="menuStrip1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="lblStatus.Size" type="System.Drawing.Size, System.Drawing">
-    <value>683, 17</value>
+  <data name="statusStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 802</value>
   </data>
   <data name="statusStrip1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>698, 22</value>
+    <value>1222, 22</value>
   </data>
-  <data name="statusStrip1.ToolTip" xml:space="preserve">
-    <value />
+  <data name="lblStatus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1196, 17</value>
   </data>
-  <data name="cmTray.ToolTip" xml:space="preserve">
-    <value />
+  <data name="cmTray.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 78</value>
   </data>
   <data name="notifyIcon1.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1423,6 +1475,18 @@
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 </value>
   </data>
+  <data name="showWOL2ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>218, 34</value>
+  </data>
+  <data name="toolStripSeparator12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 6</value>
+  </data>
+  <data name="exitWOL2ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>218, 34</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>11, 24</value>
+  </data>
   <data name="$this.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         Qk1eEAAAAAAAADYAAAAoAAAAsQIAAAIAAAABABgAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAA7enr7enr
@@ -1498,7 +1562,7 @@
 </value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>698, 471</value>
+    <value>1222, 824</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -2054,7 +2118,7 @@
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 </value>
   </data>
-  <data name="$this.ToolTip" xml:space="preserve">
-    <value />
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1207, 827</value>
   </data>
 </root>

@@ -213,6 +213,7 @@ namespace WOL2
             // 
             resources.ApplyResources(this.toolStripTools, "toolStripTools");
             this.toolStripTools.AllowItemReorder = true;
+            this.toolStripTools.ImageScalingSize = new System.Drawing.Size(28, 28);
             this.toolStripTools.Name = "toolStripTools";
             this.toolTip.SetToolTip(this.toolStripTools, resources.GetString("toolStripTools.ToolTip"));
             // 
@@ -230,6 +231,7 @@ namespace WOL2
             // cmGroups
             // 
             resources.ApplyResources(this.cmGroups, "cmGroups");
+            this.cmGroups.ImageScalingSize = new System.Drawing.Size(28, 28);
             this.cmGroups.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.wakeGroupToolStripMenuItem,
             this.rebootGroupToolStripMenuItem,
@@ -386,6 +388,7 @@ namespace WOL2
             // cmHost
             // 
             resources.ApplyResources(this.cmHost, "cmHost");
+            this.cmHost.ImageScalingSize = new System.Drawing.Size(28, 28);
             this.cmHost.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.wakeToolStripMenuItem,
             this.rebootToolStripMenuItem,
@@ -529,6 +532,7 @@ namespace WOL2
             // 
             resources.ApplyResources(this.toolStrip1, "toolStrip1");
             this.toolStrip1.AllowItemReorder = true;
+            this.toolStrip1.ImageScalingSize = new System.Drawing.Size(28, 28);
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripButton_NewFile,
             this.toolStripButton_OpenFile,
@@ -625,6 +629,7 @@ namespace WOL2
             // menuStrip1
             // 
             resources.ApplyResources(this.menuStrip1, "menuStrip1");
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(28, 28);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fileToolStripMenuItem,
             this.editToolStripMenuItem,
@@ -913,6 +918,7 @@ namespace WOL2
             // statusStrip1
             // 
             resources.ApplyResources(this.statusStrip1, "statusStrip1");
+            this.statusStrip1.ImageScalingSize = new System.Drawing.Size(28, 28);
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.lblStatus});
             this.statusStrip1.Name = "statusStrip1";
@@ -982,6 +988,7 @@ namespace WOL2
             // cmTray
             // 
             resources.ApplyResources(this.cmTray, "cmTray");
+            this.cmTray.ImageScalingSize = new System.Drawing.Size(28, 28);
             this.cmTray.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.showWOL2ToolStripMenuItem,
             this.toolStripSeparator12,
@@ -1025,7 +1032,7 @@ namespace WOL2
             // MainForm
             // 
             resources.ApplyResources(this, "$this");
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.toolStripContainer1);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.menuStrip1);

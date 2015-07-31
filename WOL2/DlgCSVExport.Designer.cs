@@ -50,7 +50,6 @@ namespace WOL2
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.lblState = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -95,7 +94,6 @@ namespace WOL2
             this.tableLayoutPanel1.Controls.Add(this.label1, 0, 2);
             this.tableLayoutPanel1.Controls.Add(this.label2, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.label3, 0, 1);
-            this.tableLayoutPanel1.Controls.Add(this.lblState, 1, 3);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             // 
             // cboHdr
@@ -153,11 +151,6 @@ namespace WOL2
             resources.ApplyResources(this.label3, "label3");
             this.label3.Name = "label3";
             // 
-            // lblState
-            // 
-            resources.ApplyResources(this.lblState, "lblState");
-            this.lblState.Name = "lblState";
-            // 
             // DlgCSVExport
             // 
             resources.ApplyResources(this, "$this");
@@ -176,7 +169,6 @@ namespace WOL2
 
 		}
 		private System.Windows.Forms.Button btnExport;
-		private System.Windows.Forms.Label lblState;
 		private System.Windows.Forms.Label label3;
 		private System.Windows.Forms.Label label2;
 		private System.Windows.Forms.Label label1;

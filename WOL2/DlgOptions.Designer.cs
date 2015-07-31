@@ -783,6 +783,7 @@ namespace WOL2
             // 
             // contextMenuStrip1
             // 
+            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(28, 28);
             this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.addToolToolStripMenuItem,
             this.modifyToolToolStripMenuItem,

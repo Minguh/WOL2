@@ -83,22 +83,22 @@ namespace MOE
             // 
             // panel1
             // 
-            resources.ApplyResources(this.panel1, "panel1");
             this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.btnOK);
+            resources.ApplyResources(this.panel1, "panel1");
             this.panel1.Name = "panel1";
             // 
             // button1
             // 
-            resources.ApplyResources(this.button1, "button1");
             this.button1.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            resources.ApplyResources(this.button1, "button1");
             this.button1.Name = "button1";
             this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // btnOK
             // 
-            resources.ApplyResources(this.btnOK, "btnOK");
             this.btnOK.DialogResult = System.Windows.Forms.DialogResult.OK;
+            resources.ApplyResources(this.btnOK, "btnOK");
             this.btnOK.Name = "btnOK";
             this.btnOK.Click += new System.EventHandler(this.btnOK_Click);
             // 
@@ -112,14 +112,12 @@ namespace MOE
             // txtInput
             // 
             resources.ApplyResources(this.txtInput, "txtInput");
-            this.txtInput.MinimumSize = new System.Drawing.Size(10, 20);
             this.txtInput.Name = "txtInput";
             // 
             // lblPrompt
             // 
             resources.ApplyResources(this.lblPrompt, "lblPrompt");
             this.lblPrompt.BackColor = System.Drawing.SystemColors.Control;
-            this.lblPrompt.MinimumSize = new System.Drawing.Size(10, 10);
             this.lblPrompt.Name = "lblPrompt";
             // 
             // InputBoxDialog

@@ -89,6 +89,7 @@ namespace WOL2
             // 
             // imgIcon
             // 
+            this.imgIcon.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.imgIcon, "imgIcon");
             this.imgIcon.Name = "imgIcon";
             this.imgIcon.TabStop = false;
@@ -146,8 +147,8 @@ namespace WOL2
             // 
             // btnCancel
             // 
-            resources.ApplyResources(this.btnCancel, "btnCancel");
             this.btnCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            resources.ApplyResources(this.btnCancel, "btnCancel");
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.UseVisualStyleBackColor = true;
             // 
@@ -160,8 +161,8 @@ namespace WOL2
             // 
             // panel2
             // 
-            resources.ApplyResources(this.panel2, "panel2");
             this.panel2.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.panel2, "panel2");
             this.tableLayoutPanel1.SetColumnSpan(this.panel2, 3);
             this.panel2.Controls.Add(this.pictureBox1);
             this.panel2.Controls.Add(this.lblWiz);
