@@ -1,0 +1,51 @@
+ WOL 2 Todo
+============
+
+- ARP for Linux & Mac OS X
+- Allow a tool to be used as shutdown / reboot command
+- Specify the shutdown / reboot tool per Host
+- Use LanShutdown as shutdown / reboot client (optional)
+- Run command on host / group state changes (in progress)
+-> Shutdown local host if a certain group goes offline
+
+- Bei Notebooks die über WLAN und LAN mit dem Netzwerk verbunden sind 
+  findet der Netzwerkscanner beide IP Adressen. Nur leider stimmt die Zuordnung 
+  der MAC und der IP nicht. Diese ist bei mir immer vertauscht.
+-> Unconfirmed!
+
+
+DONE:
+- Minimize to tray (optional)
+- Add context menu to tray icon
+- Ask on Reboot/Shutdown/Wake (optional)
+- Make Sort Order Visible and Persistant
+- Load / Safe Tool-Cfg as XML
+-> All settings can now be saved as an XML file. 
+   (Attention: this is the new default! 
+   only the toolbar layout is saved to the registry)
+
+- Etwas verwirrend ist auch das im Netzwerkscanner keine Taste „Schließen“  
+  oder/und  „Hinzufügen + Schließen“ gibt. Das hat wir schon etwas Zeit 
+  gekostet um das zu verstehen.
+-> Solved by adding a "Add+Close" button as requested.
+
+- Ich hätte gern noch eine Funktion Lokalen Rechner aufnehmen. 
+  Gerade weil das Tool sich auch vom USB Stick starten lässt wäre dieses recht 
+  nützlich. Zusätzlich oder alternativ könnte es auch genügen man sucht nach 
+  einem Rechnernamen.
+-> Solved by adding the "Look Up" buttons to the add host window.
+   As a local computer can have more than one hostname / ipv4 address a 
+   simple 'add local host' button is not possible.
+
+ADDITIONAL:
+
+The oui.txt file (mac address resolver) is downloaded from: 
+http://standards.ieee.org/develop/regauth/oui/public.html
+
+
+___________________________________________________________________________
+
+Visit www.oette.info to see if some of these points have been fixed yet :-)
+
+If you have additional ideas or if you have found a new bug do not hesitate 
+to contact me. (marko@oette.info)

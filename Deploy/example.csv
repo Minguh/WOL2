@@ -1,0 +1,4 @@
+Host Name;Comment;IPv4 Address;MAC Address;Subnet Mask;Groups;Secure On Password;DHCP Flag;IPv6 Address
+Test;Yadda 123;127.0.0.1;aa:bb:cc:dd:ee:ff;255.255.255.0;G1;abcdefg;0;::1
+Test2;This is a test host;127.0.0.2;aa:bb:cc:dd:ee:ff;255.255.255.0;G1;xyz;1;::2
+Test3;This is another test host;127.0.0.3;aa:bb:cc:dd:ee:ff;255.255.255.0;G2;1234;0;::3

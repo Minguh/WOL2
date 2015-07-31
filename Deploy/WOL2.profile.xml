@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<WakeOnLanProfile>
+  <Tool0>RDP (Console)¦mstsc¦/f /admin /v:%dname%¦.\icons\display.png</Tool0>
+  <Tool1>RDP¦mstsc¦/f /v:%dname%¦.\icons\display.png</Tool1>
+  <Tool2>PING¦ping¦-t %dname%¦.\icons\hardware.png</Tool2>
+  <Tool3>PuTTY¦"%programfiles%\putty\putty.exe"¦-ssh %dname%¦.\icons\neotux.png</Tool3>
+  <Tool4>VNC¦"%programfiles%\ultravnc\vncviewer.exe"¦-connect %dname%::5900¦.\icons\demo.png</Tool4>
+</WakeOnLanProfile>

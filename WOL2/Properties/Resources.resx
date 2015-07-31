@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="strCsvSavedAs" xml:space="preserve">
+    <value>File saved as {0}</value>
+  </data>
+  <data name="strDisconnected" xml:space="preserve">
+    <value>(disconnected)</value>
+  </data>
+  <data name="strEditGroup" xml:space="preserve">
+    <value>Please specify the new name.</value>
+  </data>
+  <data name="strEditGroupTitle" xml:space="preserve">
+    <value>Edit Group</value>
+  </data>
+  <data name="strEditRebootTimerForGroup" xml:space="preserve">
+    <value>Edit reboot timer for group  {0}</value>
+  </data>
+  <data name="strEditRebootTimerForHost" xml:space="preserve">
+    <value>Edit reboot timer for host {0}</value>
+  </data>
+  <data name="strEditShutdownTimerForGroup" xml:space="preserve">
+    <value>Edit shutdown timer for group {0}</value>
+  </data>
+  <data name="strEditShutdownTimerForHost" xml:space="preserve">
+    <value>Edit shutdown timer for host {0}</value>
+  </data>
+  <data name="strEditTimerForGroup" xml:space="preserve">
+    <value>Edit timer for group {0}</value>
+  </data>
+  <data name="strEditTimerForHost" xml:space="preserve">
+    <value>Edit wake timer for host {0}</value>
+  </data>
+  <data name="strFileOpened" xml:space="preserve">
+    <value>File opened. {0} hosts loaded.</value>
+  </data>
+  <data name="strFileSaved" xml:space="preserve">
+    <value>File successfully saved.</value>
+  </data>
+  <data name="strLoggingAfterRestart" xml:space="preserve">
+    <value>Logging will be enabled / disabled after WOL2 restart.</value>
+  </data>
+  <data name="strNetworkScanFinished" xml:space="preserve">
+    <value>Network scan finished. {0} hosts added.</value>
+  </data>
+  <data name="strNetworkScanProgress" xml:space="preserve">
+    <value>Network scan finished to {0}%.</value>
+  </data>
+  <data name="strNetworkScanStarted" xml:space="preserve">
+    <value>Network scan started. Please wait...</value>
+  </data>
+  <data name="strNewGroup" xml:space="preserve">
+    <value>Please specify the name of the new group.</value>
+  </data>
+  <data name="strNewGroupTitle" xml:space="preserve">
+    <value>Create new Group</value>
+  </data>
+  <data name="strNoNetworksFound" xml:space="preserve">
+    <value>No supported networks found</value>
+  </data>
+  <data name="strNoTimer" xml:space="preserve">
+    <value>No timer set up.</value>
+  </data>
+  <data name="strOffline" xml:space="preserve">
+    <value>offline</value>
+  </data>
+  <data name="strOnline" xml:space="preserve">
+    <value>online</value>
+  </data>
+  <data name="strRemoveGroup" xml:space="preserve">
+    <value>Enter the name of the group you wish to remove</value>
+  </data>
+  <data name="strRemoveGroupTitle" xml:space="preserve">
+    <value>Remove Group</value>
+  </data>
+  <data name="strSecureOnPrompt" xml:space="preserve">
+    <value>Please enter the SecureOn password.</value>
+  </data>
+  <data name="strSendRebootSignal" xml:space="preserve">
+    <value>Send reboot signal to all members of group {0}.</value>
+  </data>
+  <data name="strSendShutdownSignal" xml:space="preserve">
+    <value>Send shutdown signal to all members of group {0}.</value>
+  </data>
+  <data name="strSendWolPackageToHost" xml:space="preserve">
+    <value>Send WOL package to host {0}.</value>
+  </data>
+  <data name="strSendWOLSignal" xml:space="preserve">
+    <value>Send WOL package to all members of group {0}.</value>
+  </data>
+  <data name="strStarting" xml:space="preserve">
+    <value>starting</value>
+  </data>
+  <data name="strStateChanged" xml:space="preserve">
+    <value>'{0}' is now {1}.</value>
+  </data>
+  <data name="strTimerIsDisabled" xml:space="preserve">
+    <value>The timer ist disabled.</value>
+  </data>
+  <data name="strTimerSetup" xml:space="preserve">
+    <value>The timer is set up for: </value>
+  </data>
+  <data name="strUnknown" xml:space="preserve">
+    <value>unknown</value>
+  </data>
+  <data name="strWelcome" xml:space="preserve">
+    <value>Welcome to the Wake On Lan Tool 2.</value>
+  </data>
+  <data name="strConfirmAction" xml:space="preserve">
+    <value>Please confirm the following action: {0}</value>
+  </data>
+  <data name="strError" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="strNeedMacAdressForThat" xml:space="preserve">
+    <value>This action requires a valid MAC address.</value>
+  </data>
+  <data name="strHostnameInValid" xml:space="preserve">
+    <value>The host name is invalid.</value>
+  </data>
+  <data name="strHostnameValid" xml:space="preserve">
+    <value>Ths host name is valid.</value>
+  </data>
+  <data name="strWarnDropProfile" xml:space="preserve">
+    <value>Warning: this action will delte the currently used XML profile (not the hosts file) and save all settings to the windows registry. Press OK to continue.</value>
+  </data>
+  <data name="strHelpFileMissing" xml:space="preserve">
+    <value>The help files (ReadMe_En.htm) could not be found.</value>
+  </data>
+  <data name="strHelpFileName" xml:space="preserve">
+    <value>ReadMe_En.htm</value>
+  </data>
+  <data name="strCSVLineNotValid" xml:space="preserve">
+    <value>A line in the CSV file is invalid. Continue anyway?</value>
+  </data>
+  <data name="strEditHostListComment" xml:space="preserve">
+    <value>Comment:</value>
+  </data>
+  <data name="strEditHostListCommentTitle" xml:space="preserve">
+    <value>Change Host-List Comment</value>
+  </data>
+  <data name="strSurveyText" xml:space="preserve">
+    <value>Thank you for using the Wake On Lan Tool 2.\n\nThe author would like to know more about its users and their contentment. Do you have 5 minutes to take part in a short survey (5 questions)?\n\n*Yes* = Opens the survey\n*No* = Do not ask again.\n*Cancel* = Ask me the next time.</value>
+  </data>
+  <data name="strSurveyTitle" xml:space="preserve">
+    <value>WOL2 - Users survey</value>
+  </data>
+  <data name="strOverwriteProfile" xml:space="preserve">
+    <value>The file name is reserved. Please use another file name to save the host list.</value>
+  </data>
+  <data name="strSaveChangedFile" xml:space="preserve">
+    <value>The hosts file was changed. Do you want to save the changes?</value>
+  </data>
+  <data name="strNoUpdateFound" xml:space="preserve">
+    <value>You are using the latest version of WOL2.</value>
+  </data>
+  <data name="strUpdateTitle" xml:space="preserve">
+    <value>Online update...</value>
+  </data>
+</root>

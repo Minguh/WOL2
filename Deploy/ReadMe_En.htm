@@ -1,0 +1,431 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+						"http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+  <head>
+	<title>Wake On Lan Tool 2 Read Me</title>
+	
+	<meta http-equiv="content-type" content="text/html; charset=UTF8">
+	
+	<style type="text/css">
+		a:link { text-decoration:none; color:#333399; }
+		a:visited { text-decoration:none; color:#333399; }
+		a:hover { text-decoration:none; color:#ffffff; background-color:#66CCFF; }
+		a:active { text-decoration:none; color:#ffffff; background-color:#0066CC; }
+		a:focus { text-decoration:none; color:#ffffff; background-color:#0066CC; }
+		.headline { padding-bottom:20px; font-family:Arial,sans-serif; font-size:22px; font-weight:bold; color:#000066; text-align:center; }
+		.subtitle { padding-top: 10px; padding-bottom:20px; border-top: 1px solid #000066; font-family:Arial,sans-serif; font-size:15px; font-weight:bold; color:#000066 }
+		.content { padding-bottom: 20px; font-family:Arial,sans-serif; font-size:12px; color:#000066; text-align: justify}
+		.rmTable th { font-family:Arial,sans-serif; font-size:12px; color:#000066; background-color:#eeeeee; border:1px solid #eee; }
+		.rmTable td { font-family:Arial,sans-serif; font-size:12px; color:#000066; border:1px solid #eee; padding:5px; }
+		.rmTable { font-family:Arial,sans-serif; font-size:12px; color:#000066; border:1px solid #eee; }
+
+		.impress { font-family:Arial,sans-serif; font-size:10px; color:#000066 }
+		.container { width:800px; text-align: left; }
+		body { text-align: center; margin: 10 auto; background: url(bkg.png) repeat-x }
+	</style>
+	
+	<base target="_top">
+  </head>
+
+  <body>
+
+	<div class="container">
+
+		<div class="headline">
+		Wake On Lan Tool 2 Read Me
+		</div>
+
+		<div class="subtitle">Topics</div>
+		<div class="content">
+		<a href="ReadMe_De.htm">Diese Hilfe auf Deutsch anzeigen.</a>
+		<br><br>
+		This is the Wake On Lan Tool 2 Read Me.<br>
+		Please choose one of the following topics:<br>
+
+		<ul>
+		<li> <a href="#Intro">Introduction</a>
+		<li> <a href="#WOLHow">How does WOL work?</a>
+		<li> <a href="#UseWOLTool">Using the Wake On Lan Tool 2</a>
+		<li> <a href="#UseGroups">Using groups</a>
+		<li> <a href="#UseNetScanner">Using the build in network scanner</a>
+		<li> <a href="#NetworkMonitor">The network monitor</a>
+		<li> <a href="#cmd">Command line switches</a>
+		<li> <a href="#SysReq">System requirements</a>
+		<li> <a href="#ChangeLog">Change log</a>
+		</ul>
+		</div>
+
+		<div class="subtitle"><a name="Intro">Introduction</a></div>
+		<div class="content">
+		If you never heard of wake on lan you may ask what this utility is good
+		for. Had you ever had the problem that you wanted to work with a computer in another office
+		but it was powered down? Well, if the remote computer is wake on lan capable the Wake On Lan 
+		Tool is your soultion. Wake on Lan (WOL) is a standart introduced by AMD. WOL capable
+		computers can be powered on from any other host in the network by simply sending
+		a packet to the host telling it to power on.
+		<br><br>
+		This utility is able to remotely switch on every wol capable host in the network
+		you are currently connected to. You can select a single host or a range of hosts 
+		and switch them on.
+		<br><br>
+		Additionally the Tools supports shutting down or restarting hosts.
+		</div>
+
+		<div class="subtitle"><a name="WOLHow">How does WOL work?</a></div>
+		<div class="content">
+		Every computer in a network has a DNS name (the computers name in the network), 
+		an IP address (the computers address in the network) and a physical address 
+		(the MAC address of the network card).
+		<br><br>
+		A WOL capable computer has a network interface card (NIC) that always 
+		(even if the computer is powered down) listenes to the network traffic. 
+		This is indicated by blinking LEDs at the back of the computer even when its powered off.
+		<br><br>
+		If a special network packet (a <b>magic paket</b>) is recieved the NIC looks if the 
+		magic packet was send to its physical address (as the NIC does not know of the 
+		computer name or IP address) and if yes it powers on the computer.
+		<br><br>
+		In order to use WOL you need to enable the feature in the BIOS of the destination 
+		computer. Nowadays most computers come with WOL preeabled. If you think your Computer is not WOL 
+		enabled consult the mainboard manual. See how to enable "Wake On Lan", "Wake on PCI" or "Wake by Network".
+		<br><br>
+		Some older computers (&lt;1999) may not support WOL at all.
+		<br><br>
+		In oder to user WOL over the Internet you will have to configure your router / VPN settings.
+		The port used for sending the WOL UDP Broadcast is 7 (ECHO). Make sure that this port is routed 
+		to your local subnet broadcast address. Eg: if you use a class C network route the port 7 UDP to 192.160.0.255. (You may also specify ff:ff:ff:ff:ff:ff as destination MAC.)
+		</div>
+
+		<div class="subtitle"><a name="UseWOLTool">Using the Wake On Lan Tool 2</a></div>
+		<div class="content">
+		The Wake On Lan Tool is made for everyone. Beginners, advanced users and 
+		professionals. The design goals were simplicity, stability, portability 
+		and functionality. To whatever usergroup you belong to, the tool is 
+		designed to enable you to do what you want. <br><br>
+		The WOL Tool 2 is delivered as a 7-Zip archive. To get things started you 
+		at first may want to extract this archive using the free 
+		<a href="http://www.7-zip.org/">7-Zip archiver</a> that is avaliable for 
+		many plattforms. <br><br>
+		After extracting the archive start the WOL Tool 2 by double clicking on
+		the WOL2.exe. If you're using Mac OS or GNU/Linux you will have to use 
+		WOL2.sh. If the tool does not start, please ensure that your system meets
+		the <a href="#SysReq">System Requirements</a>.<br><br>
+		If the tool is running you will automatically see the main window. On the 
+		first run an empty file is created. Now you can use the 'New Host' button 
+		to add computers manually. Alternatively you may use the 
+		<a href="#UseNetScanner">build in network scanner</a>. After you have added 
+		all your hosts save the file using the 'Save File' button.<br><br>
+		To wake, reboot or shutdown a host or a range of hosts select them and 
+		click the appropriate 'Wake', 'Reboot' or 'Shutdown' button. You may configure 
+		the options for shutdown and reboot using the options dialog.<br><br>
+		<b>Shutdown and reboot does currently only work on Windows machines.</b><br><br>
+		You may also define a timer to let the WOL Tool 2 wake a host automatically.
+		To do this choose the host from the list and click the 'Edit Timer' button
+		to open the 'Edit Timer' window.<br><br>
+		<b>CSV Import</b><br>
+		The WOL2 Tool has a CSV import option. The CSV file must have the following format:<br>
+		<i>Host Name;Comment;IPv4 Address;MAC Address;Subnet Mask;Groups;Secure On Password;DHCP Flag;IPv6 Address</i><br>
+		The first row is interpreted as header.<br><br>
+		<b>Toolbars</b><br>
+		By pressing the ALT-Key you can re order the main toolbar. The settings are saved when the application quits.<br>
+		<br>Attention: You can only re order the main toolbar!<br><br>
+		<b>Tools</b><br>
+		You can use the WOL2 Tool to control other applications that are installed on the computer. Go to "Options/Tools" to set them up.<br><br>
+		You can use the following place holders:<br>
+		%name% = Hostname<br>
+		%ip% / %ipv6% = IP Address<br>
+		%snmask% = Subnet mask<br>
+		%mac% = MAC Address<br>
+		%comment% = The comment of the host<br>
+		%groups% = Comma separated list of all groups<br>
+		
+		%dname% = Either the IP or the host name as specified by the DHCP flag.<br>
+		%dipv4% = The IPv4 address of the host as looked up in the DNS.<br>
+		%dipv6% = The IPv6 address of the host as looked up in the DNS.<br>
+		
+		<br>You can also use the environment variables of the local computer. (Eg. %programfiles%)<br>
+		</div>
+		
+		<div class="subtitle"><a name="UseGroups">Using Groups</a></div>
+		<div class="content">
+		The Wake On Lan Tool 2 allows you to organize your network in groups. 
+		To add a new group right click on the 'All' tab in the main window. 
+		From the context menu choose 'Add Group...'. In the following input
+		box enter the name of your new group and click the 'Ok' button.<br><br>
+		To add a host to a certain group right click it, and choose 'Add to group' 
+		to add it to a certain group or 'Set group' to specify one group this 
+		host belongs to. You may also define the groups in the 'Edit Host' window.
+		To rename or delete a group activate it first. Then right click on the 
+		appropriate tab page and select 'Rename Group...' or 'Remove Group...' 
+		from the context menu. When renaming a group, the tool automatically 
+		assigns all hosts that belonged to the old group to the new one.<br><br>
+		Groups do also have timers to allow you to wake all computers belonging 
+		to a certain group at once.
+		</div>
+		
+		<div class="subtitle"><a name="UseNetScanner">Using the build in network scanner</a></div>
+		<div class="content">
+		The network scanner is a simple but efficient tool to create or 
+		update host files.<br><br>
+		You can start the automatic network scanner by choosing the menu action 
+		'Scan for new hosts' from the 'Edit' menu.<br><br>
+		It will automatically search new computers on all networks that your computer is 
+		attached to. It will add computers to the currently open host file 
+		if the network scanner is able to determine the MAC Address using ARP.<br><br>
+		Another option is to use the Network Scanner Window you may already know
+		from WOL Classic. To open the window please choose 'Open network scanner...'
+		from the 'Edit' menu.<br><br>
+		Please note, that the destination computers need to be turned on and 
+		connected to the network in order to be found by the network scanner.<br><br>
+		You may configure the scanner in the options dialog (Menu 'Edit' -&gt; 'Options').<br><br>
+		The network scanner uses an ICMP ECHO request as described in <a href="http://www.ietf.org/" target="_blank">RFC 792</a>.<br><br>
+		<b>The scanner does currently only work on Windows machines.</b>
+		</div>
+		
+		<div class="subtitle"><a name="NetworkMonitor">The network monitor</a></div>
+		<div class="content">
+		The network monitor monitors the online states of all hosts in the currently loaded host list. It is displayed in the "State" column. The icon also represents the current state.<br/><br/>
+		You can configure a command (or batch file) that should be run as soon as a state changes. See the settings window.<br/><br/>
+		The following place holders are supported: %ip%, %ipv6%, %mac%, %name%, %snmask%, %comment%, %state%.<br/><br/>
+		The monitor currently only works for hosts (not for groups)!
+		</div>
+		
+		<div class="subtitle"><a name="cmd">Command Line Switches</a></div>
+		<div class="content">
+		<table class="rmTable">
+		  <thead>
+			<tr>
+			    <th>Switch</td>
+				<th>Usage</td>
+			</tr>
+		  </thead>
+		  <tr>
+		    <td>-file [parameter]</td>
+		    <td>Tells the WOL Tool 2 to open the file [parameter].</td>
+		  </tr>
+		  <tr>
+		    <td>-wake [parameter1;parameter2;...]</td>
+		    <td>Tells the WOL Tool 2 to wake the host(s) [parameter1;parameter1;...].</td>
+		  </tr>
+		  <tr>
+		    <td>-reboot [parameter1;parameter2;...]</td>
+		    <td>Tells the WOL Tool 2 to reboot the host(s) [parameter1;parameter1;...].</td>
+		  </tr>
+		  <tr>
+		    <td>-shutdown [parameter1;parameter2;...]</td>
+		    <td>Tells the WOL Tool 2 to shut the host(s) [parameter1;parameter1;...] down.</td>
+		  </tr>
+		   <tr>
+		    <td>-wakegrp [parameter1;parameter2;...]</td>
+		    <td>Tells the WOL Tool 2 to wake the group(s) [parameter1;parameter1;...].</td>
+		  </tr>
+		  <tr>
+		    <td>-rebootgrp [parameter1;parameter2;...]</td>
+		    <td>Tells the WOL Tool 2 to reboot the group(s) [parameter1;parameter1;...].</td>
+		  </tr>
+		  <tr>
+		    <td>-shutdowngrp [parameter1;parameter2;...]</td>
+		    <td>Tells the WOL Tool 2 to shut the group(s) [parameter1;parameter1;...] down.</td>
+		  </tr>
+		  <tr>
+		    <td>-close</td>
+		    <td>Tells the WOL Tool 2 to close itself after performing the previous actions.</td>
+		  </tr>
+		  <tr>
+		    <td>-registry</td>
+		    <td>Loads the profile (Settings/Options) fromt the Windows Registry even if the file WOL2.profile.xml exists.</td>
+		  </tr>
+		  
+		</table>
+		</div>
+		
+		<div class="subtitle"><a name="SysReq">System Requirements</a></div>
+		<div class="content">
+		The Wake On Lan Tool 2 is a complete rewrite of the successfull Wake On Lan Tool Classic. 
+		The WOL Tool 2 is written in C# and requires the 
+		<a href="http://www.microsoft.com/downloads/details.aspx?familyid=10cc340b-f857-4a14-83f5-25634c3bf043&displaylang=en">.NET Runtime Framework (4.0 or newer)</a> 
+		for Windows or the <a href="http://www.mono-project.com/Main_Page">MONO 
+		Runtime Framework</a> for GNU/Linux and MacOS X.<br/>
+		Please note that the Wake On Lan Tool 2 does currently only support IPv4. 
+		An active IPv6 stack should not constrain the tool.
+		<br><br>
+		Tested Operating Systems:
+		<ul>
+		<li> Windows XP Pro SP3 </li>
+		<li> Windows Vista Ultimate </li>
+		<li> Windows 7 32+64 Bit</li>
+		<li> Windows 8 32+64 Bit</li>
+		<li> Ubuntu 8.10 (running, WOL not tested yet) </li>
+		</ul>
+		</div>
+		
+		<div class="subtitle"><a name="ChangeLog">Change Log</a></div>
+		<div class="content">
+		<b>Version 2.0.2.7 / 30.8.2014:</b>
+		<ul>
+		<li> Added online updater (again). </li>
+		<li> Corrected the IEEE MAC resolver to support the new oui.txt format. </li>
+		<li> Updated the IEEE MAC oui.txt file. </li>
+		</ul>
+		<br>
+		
+		<b>Version 2.0.2.6 / 26.07.2013:</b>
+		<ul>
+		<li> WOL delay function corrected (was not working in ms but in nano seconds). Thanks to Mathias Möller for reporting. </li>
+		<li> WOL delay now works for command line and timers as well (previously only goups and manual wake). </li>
+		<li> Update algorithm for network scanner fixed. (If no mac was detected the scanner would overwrite existing hosts w/o mac address.) </li>
+		<li> Crash on startup in clean installations fixed. Thanks to Michael Roth for reporting.</li>
+		<li> Window for host state change command is no more hidden. (Easier to debug now.)</li>		
+		<li> Survey removed. </li>
+		</ul>
+		<br>
+		
+		<b>Version 2.0.2.5 (Survey wishlist release) / 27.01.2013:</b>
+		<ul>
+		<li> You can now move / resize the columns in the detail view as you like. They are saved on exit and restored on startup. 
+			The feature to automatically adapt the column width to its content has been disabled as this was working against the manual sizing. 
+			If you want to autosize a column, double click the separator right to the column.</li>
+		<li> Removed (the permantly disabled) WOL via TCP option. WOL via TCP only makes sense for "direct" communication (WOL over internet), 
+			as TCP only works if the destination is online. It has the same result as WOL over UDP, therefore it is now removed.</li>
+		<li> Added a new host attribute: WOL Mode. You can now overwrite the default WOL Mode (Broadcast, NetCast, Direct) per host. </li>
+		<li> Added a feature to automatically update the IP addresses of DHCP hosts. The IP address is updated to the one that sends the ICMP reply. 
+			 If IPv6 is enabled and the reply is received from an IPv6 address the tool will try to additionally update the IPv4 address. 
+			 (The first address returned by the DNS will be used, see the log file for warnings!)</li>
+		<li> The window position and state (maximized, minimized, normal, systray) is saved on exit and restored on startup.</li>
+		<li> Fixed a bug where timers fired although they were disabled. (The timer itself had to be enabled, if so it would fire for all weekdays, even for those where it was not enabled.)</li>
+		<li> B2: CSV Im/Export: The files are now properly closed.</li>
+		</ul>
+		<br>		
+		<b>Version 2.0.2.4 / 22.01.2013:</b>
+		<ul>
+		<li> The CSV import now displays the current progress and processes window messages, so the app does not hang while importing. </li>
+		<li> Fixed the bug that the toolbars and menus are missing after closing WOL2 in minimized / systray mode. </li>
+		<li> Changed the 'Wake Host' icon to be GREEN. Shutdown is now RED, Reboot is YELLOW. </li>
+		<li> Added a fallback for WakeOnLan on subnet level: If the host uses DHCP but the DNS server does not know an IP: use the one from the host's settings. This fixes compatibility problems introduced with WOL 2.0.2.3. </li>
+		<li> Timer code has been changed and now prints status to the log file. </li>
+		<li> Added the option to set a note/comment to each hosts file. Comment is displayed if you hover the toolbar button. </li>
+		<li> A survey is displayed on first launch. </li>
+		</ul>
+		<br>		
+		<b>Version 2.0.2.3 / 28.11.2012:</b>
+		<ul>
+		<li> The CSV import now displays a message box if the import fails due to csv syntax errors. The user can choose to continue or abort. </li>
+		<li> Fixed a bug in local subnet scanner: The updated hosts replaced their groups / comments. </li>
+		<li> Added IPv6 address update to network scanner window and local subnet scanner function. </li>
+		<li> Added function to periodically scan for new hosts in the local subnets. (30 minutes, disables after restart) </li>
+		</ul>
+		<br>
+		<b>Version 2.0.2.2 / 19.11.2012:</b>
+		<ul>
+		<li> Added the option to save settings as XML file (WOL2.profile.xml).<BR>If the file exists in the same folder as WOL2.exe, the settings are always loaded from it. See command line switch <i>-registry</i>. </li>
+		<li> Added the function to migrate settings between registry and xml file </li>
+		<li> Tools now can have icons </li>
+		<li> Added a 'Tools' toolbar </li>
+		<li> Deploying a default file to add some handy tools. (Windows Vista and newer.) </li>
+		<li> Tools now can use environment variables as well. (See examples)</li>
+		<li> Added CSV Import. See example file.</li>
+		<li> Bugfix: Alphabetical sorting of first column (host name) did not work.</li>
+		</ul>
+		<br>
+		<b>Version 2.0.2.1 / 16.11.2012:</b>
+		<ul>
+		<li> Switched to .NET 4.0 </li>
+		<li> Reworked GUI </li>
+		<li> Support for Windows 8 </li>
+		<li> Any CPU Build (Native 32+64 Bit OS Support) </li>
+		<li> Added basic IPv6 Support (IPv6 resolution, IPv6 network monitor, IPv6 WOL transmission). See 'Options' to enable IPv6. </li>
+		<li> Added DNS 'Resolve' and 'Verify' buttons to the 'Edit Host' window. </li>
+		<li> Bugfix for ARP on Windows: Now all nics are used for ARP queries. </li>
+		<li> Bugfix for WOL over DHCP: The WOL package is now send to all IPv4/IPv6 addresses known to DNS. </li>
+		<li> WOL port can be configured in 'Options'. </li>
+		<li> The online update check has been removed. </li>
+		</ul>
+		<br>
+		<b>Version 2.0.1.1:</b>
+		<ul>
+		<li> Requires .NET 3.5 </li>
+		<li> ListView sorting is now visible and permanent </li>
+		<li> The tray icon now has a small context menu </li>
+		<li> Minimize to tray can be turned off (optional) </li>
+		<li> Ask before performing actions like reboot/shutdown/wake (optional) </li>
+		<li> Run a command if the state of a host changes </li>
+		</ul>
+		<br>
+		<b>Version 2.0.1.0:</b>
+		<ul>
+		<li> Crash when opening a host list fixed.</li>
+		<li> Recent list added</li>
+		<li> About Screen shows version</li>
+		<li> Correct versioning ;-)</li>
+		</ul>
+		<br>
+		<b>Version 2.0.0.21441:</b>
+		<ul>
+		<li> Crash when adding hosts to a group fixed.</li>
+		<li> WOL2 is now detecting the windows version and sets the parameters for reboot and shutdown according to the version. (Thanks Christoph)</li>
+		<li> Online Check reworked.</li>
+		<li> Czech translation by Jan Bartoň</li>
+		</ul>
+		<b>Version 2.0.0.24890:</b>
+		<ul>
+		<li> Automatic resorting of the listview </li>
+		<li> Systray Icon + Notifications </li>
+		<li> Minimizes to the systray </li>
+		<li> Scanning of large networks (>255 hosts) possible </li>
+		<li> Scanning of IP ranges with start / end unequal to 0 / 255 possible </li>
+		<li> The network scanner now updates existing hosts </li>
+		<li> Configurable delay between WOL packages. See [General] tab.</li>
+		</ul>
+		<b>Version 2.0.0.27412:</b>
+		<ul>
+		<li> Colorized state column in the list view added (optional) </li>
+		<li> Automatic saving of the host file after changes (optional) </li>
+		<li> German translation </li>
+		<li> Toolbar Button "Edit Timer" removed and replaced by context menu entries </li>
+		<li> Timer for reboot and shutdown (hosts+groups) added </li>
+		<li> Commandline parameters for shutdown and reboot added </li>
+		<li> Commandline parameters for working with groups added </li>
+		</ul>
+		<br/><b>Version 2.0.0.24533:</b>
+		<ul>
+		<li> CSV Export added </li>
+		<li> MAC address normalization </li>
+		</ul>
+		<br/>
+		<b>Version 2.0.0.25203:</b>
+		<ul>
+		<li> IPv6 filter added </li>
+		<li> Networkscanner window added </li>
+		</ul>
+		<br/>
+		<b>Version 2.0.0.23969:</b>
+		<ul>
+		<li> Logger added </li>
+		</ul>
+		<br/>
+		<b>Version 2.0.0.20467:</b>
+		<ul>
+		<li> Crash when exiting the tool fixed </li>
+		<li> Bug "Settings not saved on exit." fixed </li>
+		</ul>
+		<br/>
+		<b>Version 2.0.0:</b>
+		<ul>
+		<li> Initial Revision </li>
+		</ul>
+		</div>
+
+		<br>
+		<hr>
+		<br>
+
+		<center>
+		<div class="impress">
+		The Wake On Lan Tool is &copy; 2004 - 2009 by <a href="mailto:marko_AT_oette.info">Marko Oette</a>. See <a href="http://www.oette.info">www.oette.info</a> for more information.
+		</div>
+		</center>
+
+	</div> <!-- class="container" -->
+  </body>
+</html>
